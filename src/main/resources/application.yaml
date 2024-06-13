@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: e-comm-cart
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5434/ecomm_cart}
+    username: ${DB_USER:my_user}
+    password: ${DB_PASS:my_password}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
