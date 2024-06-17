@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  postgres:
+  postgres-cart:
     image: postgres:latest
     container_name: ecomm_cart
     environment:
